@@ -80,6 +80,19 @@
 	label4.numberOfLines = 0;
 	[self.view addSubview:label4];
 	[label4 release];
+    
+    //label5 is Chinese Character
+	FontLabel *label5 = [[FontLabel alloc] initWithFrame:CGRectMake(10, CGRectGetMaxY(label4.frame), 300, 100) fontName:@"aaa" pointSize:40.0f];
+	label5.textColor = [UIColor magentaColor];
+	label5.text = @"你好吧";
+	[label5 sizeToFit];
+	label5.backgroundColor = nil;
+	label5.opaque = NO;
+	[self.view addSubview:label5];
+	[label5 release];
+    
+    ///NSLog(@"打印FSong的路径：%@" , [[NSBundle mainBundle] pathForResource:@"aaa" ofType:@"ttf"] );
+    
 }
 
 - (void)dealloc {
