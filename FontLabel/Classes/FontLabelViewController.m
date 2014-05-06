@@ -46,8 +46,8 @@
 												  fontName:@"Schwarzwald Regular" pointSize:20.0f];
 	label2.textColor = [UIColor blackColor];
 	label2.text = @"centered in a frame.\nthis is line two. Long lines should wrap, possibly multiple times. Really long lines should truncate with an ellipsis.";
-	label2.textAlignment = UITextAlignmentCenter;
-	label2.lineBreakMode = UILineBreakModeTailTruncation;
+	label2.textAlignment = NSTextAlignmentCenter;
+	label2.lineBreakMode = NSLineBreakByTruncatingTail;//UILineBreakModeTailTruncation;
 	label2.backgroundColor = [UIColor greenColor];
 	label2.numberOfLines = 0;
 	[self.view addSubview:label2];
@@ -57,7 +57,7 @@
 												  fontName:@"Scissor Cuts" pointSize:22.0f];
 	label3.textColor = [UIColor magentaColor];
 	label3.text = @"right justified.\nThis is line two. Long lines should wrap. (encripted font file used)";
-	label3.textAlignment = UITextAlignmentRight;
+	label3.textAlignment = NSTextAlignmentRight;
 	label3.backgroundColor = [UIColor blueColor];
 	label3.numberOfLines = 0;
 	[self.view addSubview:label3];
@@ -75,7 +75,7 @@
 	[str addAttribute:ZUnderlineStyleAttributeName value:[NSNumber numberWithInt:ZUnderlineStyleSingle] range:NSMakeRange(47, 9)];
 	label4.zAttributedText = str;
 	[str release];
-	label4.textAlignment = UITextAlignmentLeft;
+	label4.textAlignment = NSTextAlignmentLeft;
 	label4.backgroundColor = [UIColor lightGrayColor];
 	label4.numberOfLines = 0;
 	[self.view addSubview:label4];
