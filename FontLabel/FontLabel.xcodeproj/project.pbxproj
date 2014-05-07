@@ -23,6 +23,7 @@
 		43B413A6106E793F00A2DCF3 /* ZAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 435E454E106981FA00F86F0E /* ZAttributedString.m */; };
 		43B413A8106E795F00A2DCF3 /* ZAttributedStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B413A7106E795F00A2DCF3 /* ZAttributedStringTest.m */; };
 		66C4C54B191974FF00D9EFF1 /* aaa.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66C4C54A1919657100D9EFF1 /* aaa.ttf */; };
+		66C4C54D1919757800D9EFF1 /* DFPShaoNvW5-GB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66C4C54C1919756C00D9EFF1 /* DFPShaoNvW5-GB.ttf */; };
 		902B00900FAA484500BDEBD0 /* A Damn Mess.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 902B008A0FAA484500BDEBD0 /* A Damn Mess.ttf */; };
 		902B00910FAA484500BDEBD0 /* Abberancy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 902B008B0FAA484500BDEBD0 /* Abberancy.ttf */; };
 		902B00920FAA484500BDEBD0 /* Abduction.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 902B008C0FAA484500BDEBD0 /* Abduction.ttf */; };
@@ -60,6 +61,7 @@
 		43B413A7106E795F00A2DCF3 /* ZAttributedStringTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAttributedStringTest.m; sourceTree = "<group>"; };
 		66C4C5491919655D00D9EFF1 /* STHeiti-Medium.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "STHeiti-Medium.ttc"; sourceTree = "<group>"; };
 		66C4C54A1919657100D9EFF1 /* aaa.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = aaa.ttf; sourceTree = "<group>"; };
+		66C4C54C1919756C00D9EFF1 /* DFPShaoNvW5-GB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DFPShaoNvW5-GB.ttf"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		902B008A0FAA484500BDEBD0 /* A Damn Mess.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A Damn Mess.ttf"; sourceTree = "<group>"; };
 		902B008B0FAA484500BDEBD0 /* Abberancy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Abberancy.ttf; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				66C4C54C1919756C00D9EFF1 /* DFPShaoNvW5-GB.ttf */,
 				66C4C54A1919657100D9EFF1 /* aaa.ttf */,
 				66C4C5491919655D00D9EFF1 /* STHeiti-Medium.ttc */,
 				902B008A0FAA484500BDEBD0 /* A Damn Mess.ttf */,
@@ -255,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66C4C54D1919757800D9EFF1 /* DFPShaoNvW5-GB.ttf in Resources */,
 				66C4C54B191974FF00D9EFF1 /* aaa.ttf in Resources */,
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* FontLabelViewController.xib in Resources */,
